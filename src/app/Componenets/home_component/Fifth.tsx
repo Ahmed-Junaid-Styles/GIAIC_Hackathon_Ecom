@@ -2,16 +2,16 @@ import React from 'react'
 
 const Fifth = () => {
     return (
-        <div>
+        <div className='flex justify-center'>
             <div className=' w-9/12 flex flex-col items-center mx-auto'>
                 <div className='text-3xl text-blue-800 mb-6 font-bold'>Discount Item</div>
-                <div className='lg:w-3/12 flex justify-around sm:w-[70%] '>
+                <div className='lg:w-6/12 flex justify-around sm:w-[70%] vsm:w-[80vw] '>
                     <div className='font-semibold text-red-500 underline'>Wood Chair</div>
                     <div className='font-semibold text-blue-800'>Plastic Chair</div>
                     <div className='font-semibold text-blue-800'>Sofa Collection</div>
                 </div>
-                <div className='flex lg:justify-around sm:flex-col sm:items-center'>
-                    <div className='flex justify-between items-center w-[60%] my-4'>
+                <div className='flex lg:justify-evenly vsm:flex-col lg:flex-row vsm:items-center'>
+                    <div className='flex justify-between items-center w-[60%] vsm:w-[80%] my-4'>
                         <div className='flex flex-col justify-around w-[80%] lg:h-[400px]'>
                             <div className='text-blue-800 text-3xl font-semibold'>20% Discount of All Products</div>
                             <div className='text-pink-500 text-xl'>Eams Sofa Compact</div>
@@ -68,8 +68,8 @@ const Fifth = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <svg width="699" height="597" viewBox="0 0 699 597" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                    <div className='lg:w-[40%]'>
+                        <svg className='w-[100%] vsm:h-auto' width="699" height="597" viewBox="0 0 699 597" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <circle cx="350" cy="317" r="236" fill="#FCECF1" />
                             <rect width="699" height="597" fill="url(#pattern0_5711_217)" />
                             <defs>

@@ -9,9 +9,9 @@ const Second = () => {
                     <div className='flex flex-col items-center'>
                         <div className='text-3xl font-semibold mb-8'>Featured Products</div>
                         <div className='lg:flex'>
-                            <div className='flex flex-col shadow-2xl mx-5 sm:mb-8'>
-                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
-                                    <svg className='w-full' width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
+                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] vsm:w-[70vw]'>
+                                    <svg className='w-full vsm:w-[80%]' width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="178" height="178" fill="url(#pattern0_5703_803)" />
                                         <defs>
                                             <pattern id="pattern0_5703_803" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -34,7 +34,7 @@ const Second = () => {
                                     <div className='text-blue-800'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 sm:mb-8'>
+                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
                                 <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
                                     <svg className='w-full' width="130" height="150" viewBox="0 0 130 150" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="130" height="150" fill="url(#pattern0_5703_1632)" />
@@ -62,7 +62,7 @@ const Second = () => {
                                     <div className='text-blue-800'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 sm:mb-8'>
+                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
                                 <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
                                     <svg className='w-full' width="175" height="175" viewBox="0 0 175 175" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="175" height="175" fill="url(#pattern0_5703_1128)" />
@@ -87,7 +87,7 @@ const Second = () => {
                                     <div className='text-blue-800'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 sm:mb-8'>
+                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
                                 <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
                                     <svg className='w-full' width="216" height="151" viewBox="0 0 216 151" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="216" height="151" fill="url(#pattern0_5703_1156)" />
@@ -127,16 +127,16 @@ const Second = () => {
                     </div>
                     <div className='flex flex-col items-center'>
                         <div className='text-4xl text-blue-800 font-bold'>Leatest Products</div>
-                        <div className='lg:w-6/12 flex lg:justify-evenly mt-5 mb-8 sm:justify-between sm:w-[70vw]'>
-                            <Link className='text-pink-500 border-b-2 border-pink-500 font-semibold' href={''}>Next Arrival</Link>
-                            <Link className=' font-semibold text-blue-800' href={''}>Best Seller</Link>
-                            <Link className=' font-semibold text-blue-800' href={''}>Featured</Link>
-                            <Link className=' font-semibold text-blue-800' href={''}>Special Offer</Link>
+                        <div className='lg:w-6/12 flex lg:justify-evenly mt-5 mb-8 vsm:justify-between sm:w-[70vw] vsm:w-[90vw]'>
+                            <Link className='text-sm text-pink-500 border-b-2 border-pink-500 font-semibold' href={''}>Next Arrival</Link>
+                            <Link className='text-sm font-semibold text-blue-800' href={''}>Best Seller</Link>
+                            <Link className='text-sm font-semibold text-blue-800' href={''}>Featured</Link>
+                            <Link className='text-sm font-semibold text-blue-800' href={''}>Special Offer</Link>
                         </div>
                         <div>
-                            <div className='grid lg:grid-cols-3 sm:grid-col-1'>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200'>
+                            <div className='grid lg:grid-cols-3 sm:grid-col-1 vsm:w-[70vw]'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
                                         <div>
                                             <svg width="223" height="229" viewBox="0 0 223 229" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="223" height="229" fill="url(#pattern0_5703_1878)" />
@@ -158,7 +158,7 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
                                     <div className='flex justify-center items-center '>
                                         <div>
                                             <svg width="245" height="225" viewBox="0 0 245 245" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -182,8 +182,8 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
                                         <div>
                                             <svg width="222" height="224" viewBox="0 0 222 224" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect x="0.0810547" y="0.983208" width="221.838" height="222.204" fill="url(#pattern0_5703_404)" />
@@ -206,8 +206,8 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
                                         <div>
                                             <svg width="267" height="277" viewBox="0 0 267 277" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="267" height="277" fill="url(#pattern0_5703_1256)" />
@@ -230,8 +230,8 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
                                         <div>
                                             <svg width="303" height="278" viewBox="0 0 303 264" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="303" height="264" fill="url(#pattern0_5703_1909)" />
@@ -254,8 +254,8 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200'>
+                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
                                         <div>
                                             <svg width="360" height="261" viewBox="0 0 360 261" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="360" height="261" fill="url(#pattern0_5703_474)" />
@@ -284,7 +284,7 @@ const Second = () => {
                     <div>
                         <div className='flex flex-col items-center'>
                             <div className='text-3xl font-semibold text-blue-800 mt-4 mb-20' >What Shopex Offer!</div>
-                            <div className='flex lg:justify-around sm:flex-col w-max'>
+                            <div className='flex lg:justify-around vsm:flex-col lg:flex-row w-max vsm:w-[90%]'>
                                 <div className='flex flex-col justify-center items-center lg:w-[13vw] shadow-2xl py-12 px-8 mx-4 my-4'>
                                     <div>
                                         <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">

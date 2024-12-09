@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <div className=''>
             <header className=''>
-                <nav className='w-full lg:h-12 bg-purple-500 lg:flex lg:justify-around items-center text-white sm:w-[100%] sm:py-3'>
-                    <div className=' flex lg:w-[18%] lg:justify-between mx-auto sm:justify-center'>
+                <nav className='lg:w-[] lg:h-12 bg-purple-500 lg:flex lg:justify-around items-center text-white vsm:w-[100%] vsm:py-3'>
+                    <div className=' flex lg:w-[] lg:justify-center lg:mx-1 vsm:mx-auto vsm:justify-center'>
                         <div className='flex items-center'>
                             <span className='px-2'>
                                 <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,7 @@ const Header = () => {
                             <span>(12345)67890</span>
                         </div>
                     </div>
-                    <div className='lg:w-[20%] flex lg:justify-between sm:justify-evenly'>
+                    <div className='lg:w-[20%] flex lg:justify-between vsm:justify-evenly'>
                         <div>
                             <select name="" id="" className='bg-purple-500'>
                                 <option value="">English</option>
@@ -67,10 +67,10 @@ const Header = () => {
                         </div>
                     </div>
                 </nav>
-                <nav className=''>
-                    <div className='flex lg:h-24 w-9/12 mx-auto lg:items-center sm:flex-col sm:pt-2 sm:pb-4 sm:items-center'>
+                <nav className='vsm:flex sm:justify-start vsm:justify-center'>
+                    <div className='flex lg:h-24 vsm:w-full lg:w-9/12 vsm:mx-0 lg:mx-auto lg:items-center lg:flex-row vsm:flex-col vsm:pt-2 vsm:pb-4 vsm:items-center'>
                         <div className='text-3xl font-semibold w-[12%]'>Hekto</div>
-                        <div className='flex lg:w-[35%] justify-between sm:w-[80%] sm:justify-between sm:my-1'>
+                        <div className='flex lg:w-[35%] justify-between vsm:w-[90%] sm:w-[80%] sm:justify-between vsm:my-2 sm:my-1'>
                             <span>
                                 <select name="" id="" className='text-pink-500'>
                                     <option value="">Home</option>
@@ -84,7 +84,7 @@ const Header = () => {
                         </div>
                         <div className='flex lg:flex-grow-[1] lg:justify-end items-center sm:justify-center'>
                             <input type="text" className='h-10 border-4 lg:w-[30%]' />
-                            <div className='bg-pink-500 py-2 border-4 h-max border-pink-500 w-10 flex justify-center'>
+                            <div className='bg-pink-500 py-2 h-max border-pink-500 lg:border-2 w-10 flex justify-center'>
                                 <svg fill="#ffffff" height="18px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.4 490.4" xmlSpace="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M484.1,454.796l-110.5-110.6c29.8-36.3,47.6-82.8,47.6-133.4c0-116.3-94.3-210.6-210.6-210.6S0,94.496,0,210.796 s94.3,210.6,210.6,210.6c50.8,0,97.4-18,133.8-48l110.5,110.5c12.9,11.8,25,4.2,29.2,0C492.5,475.596,492.5,463.096,484.1,454.796z M41.1,210.796c0-93.6,75.9-169.5,169.5-169.5s169.6,75.9,169.6,169.5s-75.9,169.5-169.5,169.5S41.1,304.396,41.1,210.796z"></path> </g> </g></svg>
 
                             </div>

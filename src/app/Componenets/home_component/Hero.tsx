@@ -4,9 +4,9 @@ const Hero = () => {
     return (
         <div>
             <div className='bg-purple-100 lg:h-[860px]'>
-                <div className='lg:flex justify-around sm:flex sm:flex-col sm:items-center'>
-                    <div>
-                        <svg width="387" height="387" viewBox="0 0 387 387" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <div className='lg:flex justify-around sm:flex lg:flex-row sm:flex-col lg:items-start sm:items-center vsm:w-[90%] vsm:mx-auto'>
+                    <div className='flex vsm:items-start'>
+                        <svg className='vsm:w-[100%]' width="387" height="387" viewBox="0 0 387 387" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <rect width="387" height="387" fill="url(#pattern0_64_675)" />
                             <defs>
                                 <pattern id="pattern0_64_675" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -17,16 +17,16 @@ const Hero = () => {
                         </svg>
 
                     </div>
-                    <div className='flex lg:justify-between pr-32 items-center lg:h-[800px] sm:flex-col sm:items-center sm:px-0'>
-                        <div className='lg:w-[38%] sm:w-[45%] flex flex-col justify-between items-start lg:h-[320px]'>
-                            <div className='text-pink-500'>Best Furniture For Your Castle....</div>
-                            <div className='text-5xl font-semibold'>New Furniture Collection Trends in 2020</div>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                    <div className='flex lg:justify-around pr-32 items-center lg:h-[800px] lg:flex-row vsm:flex-col vsm:items-center vsm:w-[90%] vsm:px-0'>
+                        <div className='lg:w-[55%] sm:w-[55%] flex flex-col justify-between items-start lg:h-[320px]'>
+                            <div className='text-pink-500 mb-3'>Best Furniture For Your Castle....</div>
+                            <div className='text-5xl font-semibold mb-5 leading-[1.2]'>New Furniture Collection Trends in 2020</div>
+                            <div className='mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
                                 in phasellus non in justo.</div>
                             <button className='bg-pink-500 text-white px-10 py-2 text-lg'>Shop now</button>
                         </div>
-                        <div className='sm:mx-auto sm:flex sm:justify-center sm:flex-col'>
-                            <svg className='sm:w-[80vw] sm:mx-auto ' width="706" height="689" viewBox="0 0 706 689" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                        <div className='vsm:mx-auto lg:mx-0 vsm:flex lg:items-center vsm:justify-center vsm:flex-col'>
+                            <svg className='sm:w-[80vw] vsm:w-[70%] lg:w-[70%] lg:mx-0 vsm:mx-auto vsm:h-auto vsm:py-5 ' width="706" height="689" viewBox="0 0 706 689" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <circle cx="380.5" cy="325.5" r="325.5" fill="#ECD2FA" fill-opacity="0.35" />
                                 <circle cx="324" cy="365" r="324" fill="#ECD2FA" fill-opacity="0.35" />
                                 <path d="M595.665 186.813C545.665 158.813 557.888 136.5 559.389 120.5C559.389 110.9 582.832 65.9793 591.665 59.3126C597.165 55.146 614.865 50.3126 641.665 64.3126C702.865 89.9126 697.498 133.313 687.165 151.813C679.665 172.479 650.865 208.413 595.665 186.813Z" fill="#00C1FE" stroke="#00C1FE" stroke-linecap="round" stroke-linejoin="round" />

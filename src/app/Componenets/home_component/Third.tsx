@@ -4,9 +4,9 @@ const Third = () => {
     return (
         <div>
             <div className='bg-purple-50 py-6 my-36'>
-                <div className='lg:w-1/2 flex items-center lg:justify-between mx-auto sm:flex-col sm:items-center'>
-                    <div>
-                        <svg className='w-[50%] mx-auto' width="558" height="550" viewBox="0 0 558 550" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <div className='lg:w-9/12 flex items-center  mx-auto vsm:flex-col lg:flex-row lg:justify-around sm:items-center'>
+                    <div className='flex lg:justify-start vsm:justify-center'>
+                        <svg className='vsm:w-[70%] lg:-[90%] lg:mx-0 sm:mx-auto vsm:h-auto' width="558" height="550" viewBox="0 0 558 550" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <path d="M481 253C481 383.339 412.339 471 282 471C151.661 471 0 397.339 0 267C0 136.661 142 -2.99991 251.5 25C361 53 481 122.661 481 253Z" fill="#F5E1FC" />
                             <rect x="49" width="509" height="550" fill="url(#pattern0_79_464)" />
                             <defs>

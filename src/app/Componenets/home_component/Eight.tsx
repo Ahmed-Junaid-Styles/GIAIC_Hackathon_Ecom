@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 const Eight = () => {
     return (
-        <div>
-            <div className='flex flex-col items-center mb-20'>
-                <div className='text-blue-800 text-4xl font-bold mb-16 mt-12'> Leatest Blog</div>
-                <div className='flex lg:justify-around lg:w-9/12 sm:flex-col sm:items-center'>
-                    <div className='lg:w-[28%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
+        <div className='flex vsm:justify-center'>
+            <div className='flex flex-col items-center mb-20 vsm:w-full'>
+                <div className='text-blue-800 text-4xl font-bold lg:mb-16 lg:mt-12 vsm:mb-8 vsm:mt-4'> Leatest Blog</div>
+                <div className='flex lg:justify-around lg:w-9/12 vsm:flex-col lg:flex-row vsm:items-center'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl lg:my-2 my-4'>
                         <div>
-                            <svg width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_440)" />
                                 <defs>
                                     <pattern id="pattern0_5718_440" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -20,8 +20,8 @@ const Eight = () => {
                             </svg>
 
                         </div>
-                        <div className='lg:h-[10vw] flex flex-col justify-evenly py-3'>
-                            <div className='flex w-[66%] justify-between'>
+                        <div className=' flex flex-col justify-evenly py-3 '>
+                            <div className='flex lg:w-[100%] sm:w-[66%] justify-between'>
                                 <div className='flex text-sm items-center'>
                                     <div className='mr-2'>
                                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,9 +49,9 @@ const Eight = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[28%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
                         <div>
-                            <svg width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_239)" />
                                 <defs>
                                     <pattern id="pattern0_5718_239" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -63,8 +63,8 @@ const Eight = () => {
 
 
                         </div>
-                        <div className='lg:h-[10vw] flex flex-col justify-evenly py-3'>
-                            <div className='flex w-[66%] justify-between'>
+                        <div className=' flex flex-col justify-evenly py-3'>
+                            <div className='flex lg:w-[100%] sm:w-[66%] justify-between'>
                                 <div className='flex text-sm items-center'>
                                     <div className='mr-2'>
                                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,9 +92,9 @@ const Eight = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[28%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
                         <div>
-                            <svg width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_934)" />
                                 <defs>
                                     <pattern id="pattern0_5718_934" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -105,8 +105,8 @@ const Eight = () => {
                             </svg>
 
                         </div>
-                        <div className='lg:h-[10vw] flex flex-col justify-evenly py-3'>
-                            <div className='flex w-[66%] justify-between'>
+                        <div className='flex flex-col justify-evenly py-3'>
+                            <div className='flex lg:w-[100%] sm:w-[66%] justify-between'>
                                 <div className='flex text-sm items-center'>
                                     <div className='mr-2'>
                                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

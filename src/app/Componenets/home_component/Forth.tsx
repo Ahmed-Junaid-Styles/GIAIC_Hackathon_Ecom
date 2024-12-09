@@ -8,8 +8,8 @@ const Forth = () => {
                     <div className='text-3xl text-blue-800 font-semibold mb-12'>Trendings Products</div>
                     
                 </div>
-                <div className='flex lg:justify-around sm:flex-col sm:items-center'>
-                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl sm:w-[70%] sm:my-4'>
+                <div className='flex lg:justify-around vsm:flex-col lg:flex-row vsm:items-center'>
+                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl sm:w-[70%] vsm:w-full vsm:my-4'>
                         <div className='py-4 px-10 bg-gray-200 w-full '>
                             <svg className='w-full' width="171" height="171" viewBox="0 0 171 171" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="171" height="171" fill="url(#pattern0_5703_281)" />
@@ -30,7 +30,7 @@ const Forth = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] sm:my-4'>
+                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] vsm:w-full vsm:my-4'>
                         <div className='py-4 px-10 bg-gray-200 w-full'>
                             <svg className='w-full' width="187" height="187" viewBox="0 0 187 187" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="187" height="187" fill="url(#pattern0_5703_1172)" />
@@ -52,7 +52,7 @@ const Forth = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] sm:my-4 '>
+                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] vsm:w-full vsm:my-4 '>
                         <div className='py-4 px-10 bg-gray-200 w-full '>
                             <svg className='w-full' width="197" height="189" viewBox="0 0 197 189" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="197" height="189" fill="url(#pattern0_5711_422)" />
@@ -73,7 +73,7 @@ const Forth = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] sm:my-4'>
+                    <div className='lg:w-[20%] flex flex-col items-center shadow-2xl  sm:w-[70%] vsm:w-full vsm:my-4'>
                         <div className='py-4 px-10 bg-gray-200 w-full'>
                             <svg className='w-full' width="247" height="211" viewBox="0 0 247 211" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="253" height="211" fill="url(#pattern0_5711_14)" />
@@ -97,14 +97,14 @@ const Forth = () => {
                     </div>
 
                 </div>
-                <div className='my-14'>
-                    <div className='flex lg:justify-around sm:flex-col sm:items-center'>
-                        <div className='bg-pink-100 px-8 py-6 lg:w-[34%] sm:w-[70%] my-4'>
+                <div className='my-14 flex vsm:justify-center'>
+                    <div className='flex lg:justify-around vsm:flex-col lg:w-full vsm:w-[70%] lg:flex-row vsm:items-center'>
+                        <div className='bg-pink-100 px-8 py-6 lg:w-[34%] vsm:w-[80vw] sm:w-[70vw] my-4'>
                             <div className='text-blue-800 text-xl font-semibold'>23% off in all products</div>
                             <div className='flex justify-between'>
                                 <div className='text-red-500 underline'>Shop Now</div>
                                 <div>
-                                    <svg width="213" height="207" viewBox="0 0 213 207" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                    <svg className='vsm:w-[40vw] lg:w-auto' width="213" height="207" viewBox="0 0 213 207" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="213" height="207" fill="url(#pattern0_76_544)" />
                                         <defs>
                                             <pattern id="pattern0_76_544" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -117,14 +117,14 @@ const Forth = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-purple-100 px-8 py-6 flex flex-col lg:w-[34%] sm:w-[70%] my-4'>
+                        <div className='bg-purple-100 px-8 py-6 flex flex-col vsm:w-[80vw] lg:w-[34%] sm:w-[70vw] my-4'>
                             <div className='text-blue-800 text-xl font-semibold'>23% off in all products</div>
                             <div className='flex justify-between'>
                                 <div className='text-red-500 underline'>Shop Now</div>
                             </div>
 
                             <div className='flex flex-grow-[2] flex-col justify-end items-center '>
-                                <svg width="312" height="173" viewBox="0 0 312 173" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <svg className='sm:w-auto vsm:w-[68vw] lg:w-auto' width="312" height="173" viewBox="0 0 312 173" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <rect width="312" height="173" fill="url(#pattern0_76_551)" />
                                     <defs>
                                         <pattern id="pattern0_76_551" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -139,7 +139,7 @@ const Forth = () => {
                         </div>
                         <div className='flex flex-col justify-around'>
                             <div className='flex justify-between items-center'>
-                                <div className='bg-gray-200 px-4 mx-3'>
+                                <div className='bg-gray-200 px-4 mx-3 vsm:my-3'>
                                     <svg width="64" height="71" viewBox="0 0 64 71" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="64" height="71" fill="url(#pattern0_5711_1136)" />
                                         <defs>
@@ -157,7 +157,7 @@ const Forth = () => {
                                 </div>
                             </div>
                             <div className='flex justify-between items-center'>
-                                <div className='bg-gray-200 px-4 mx-3'>
+                                <div className='bg-gray-200 px-4 mx-3 vsm:my-3'>
                                     <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                     <rect width="67" height="67" fill="url(#pattern0_5711_1005)" />
                                     <defs>
@@ -174,7 +174,7 @@ const Forth = () => {
                                 </div>
                             </div>
                             <div className='flex justify-between items-center'>
-                                <div className='bg-gray-200 px-4 mx-3'>
+                                <div className='bg-gray-200 px-4 mx-3 vsm:my-3'>
                                     <svg width="67" height="67" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="67" height="67" fill="url(#pattern0_5711_2333)" />
                                         <defs>

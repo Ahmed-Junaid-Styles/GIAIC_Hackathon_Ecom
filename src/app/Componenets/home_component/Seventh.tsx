@@ -5,8 +5,8 @@ const Seventh = () => {
     return (
         <div>
             <div>
-                <div style={{ backgroundImage: `url(${seventh_comp_image.src})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className='flex flex-col justify-center items-center w-full lg:h-[27vw] sm:pb-7'>
-                    <div className='text-blue-800 text-4xl sm:text-2xl w-[28%] text-center my-10'>
+                <div style={{ backgroundImage: `url(${seventh_comp_image.src})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} className='flex flex-col justify-center items-center w-full lg:h-[27vw] vsm:pb-7'>
+                    <div className='text-blue-800 text-4xl sm:text-2xl lg:w-[28%] vsm:w-[70%] text-center my-10'>
                         Get Leatest Update by Subscribe Our Newslater
                     </div>
                     <div className='bg-pink-500 text-white px-10 py-3 text-lg'>
@@ -14,7 +14,7 @@ const Seventh = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center w-9/12 mx-auto mt-12 mb-8'>
+            <div className='flex justify-center w-9/12 mx-auto vsm:mt-1 vsm:mb-1 lg:mt-12 lg:mb-8'>
                 <svg width="904" height="93" viewBox="0 0 904 93" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                     <rect width="904" height="93" fill="url(#pattern0_146_3113)" />
                     <defs>

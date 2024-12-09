@@ -5,18 +5,18 @@ const Footer = () => {
     <div>
       <div>
         <div className='bg-violet-200 '>
-          <div className='w-9/12 mx-auto flex py-16'>
+          <div className='lg:w-9/12 mx-auto flex vsm:flex-col lg:flex-row vsm:w-[70%] py-16'>
             <div className='flex flex-col flex-grow-[2]'>
               <div className='text-4xl font-semibold mb-7'>Hekto</div>
               <div className='mb-8'>
-                <input type="text" placeholder='Enter Email Address' className='px-4 py-2 text-violet-300 placeholder:text-gray-300' />
+                <input type="text" placeholder='Enter Email Address' className='vsm:w-[60%] px-4 py-2 text-violet-300 placeholder:text-gray-300' />
                 <button className='bg-pink-500 text-white px-6 py-2 '>Sign Up</button>
               </div>
               <div className='mb-3 text-blue-800 font-semibold opacity-40'>Contact Info</div>
               <div className='text-blue-800 font-semibold opacity-40'>17 Princess Road, Lodon, Greater London NW1 8JR, UK</div>
             </div>
             <div className='flex flex-col flex-grow-[1]'>
-              <div className='font-semibold mb-7 text-xl'>Categories</div>
+              <div className='font-semibold mb-7 text-xl vsm:pt-5 sm:pt-6 lg:pt-0'>Categories</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Laptops & Computers</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Cameras & Photography</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Smart Phones & Tablets</div>
@@ -24,7 +24,7 @@ const Footer = () => {
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Waterproof Headphones</div>
             </div>
             <div className='flex flex-col flex-grow-[1]'>
-              <div className='font-semibold mb-7 text-xl'>Customer Care</div>
+              <div className='font-semibold mb-7 text-xl vsm:pt-5 sm:pt-6 lg:pt-0'>Customer Care</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>My Account</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Discount</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Returns</div>
@@ -33,7 +33,7 @@ const Footer = () => {
 
             </div>
             <div className='flex flex-col flex-grow-[1]'>
-              <div className='font-semibold mb-7 text-xl'>Pages</div>
+              <div className='font-semibold mb-7 text-xl vsm:pt-5 sm:pt-6 lg:pt-0'>Pages</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Blog</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Browse the Shop</div>
               <div className='my-2 text-blue-800 font-semibold opacity-40'>Category</div>

@@ -2,12 +2,12 @@ import React from 'react'
 
 const Sixth = () => {
     return (
-        <div>
-            <div className='flex flex-col items-center w-9/12 mx-auto mb-32 sm:w-6/12'>
+        <div className='lg:flex lg:justify-center'>
+            <div className='flex flex-col items-center lg:w-9/12 lg:mx-0 sm:mx-auto mb-32 sm:w-6/12'>
                 <div className='text-blue-800 font-bold text-3xl my-8'>Top Categories</div>
-                <div className='flex lg:justify-around w-full sm:flex-col'>
+                <div className='flex lg:justify-around w-full vsm:flex-col lg:w-full vsm:w-[80%] lg:flex-row'>
                     <div>
-                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[16vw] rounded-full py-12 flex flex-col justify-end items-center'>
+                        <div className='bg-gray-200 lg:w-[16vw] lg:sh-[22vw] rounded-full py-12 flex flex-col justify-end items-center'>
                             <div className='flex flex-col items-center'>
                                 <div>
                                     <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -31,7 +31,7 @@ const Sixth = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[16vw] rounded-full py-12 flex flex-col justify-end items-center'>
+                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[22vw] rounded-full py-12 flex flex-col justify-end items-center'>
                             <div className='flex flex-col items-center'>
                                 <div>
                                     <svg width="158" height="157" viewBox="0 0 158 157" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -56,7 +56,7 @@ const Sixth = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[16vw] rounded-full py-12 flex flex-col justify-end items-center'>
+                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[22vw] rounded-full py-12 flex flex-col justify-end items-center'>
                             <div className='flex flex-col items-center'>
                                 <div>
                                     <svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -81,7 +81,7 @@ const Sixth = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[16vw] rounded-full py-12 flex flex-col justify-end items-center'>
+                        <div className='bg-gray-200 lg:w-[16vw] lg:h-[22vw] rounded-full py-12 flex flex-col justify-end items-center'>
                             <div className='flex flex-col items-center'>
                                 <div>
                                     <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
