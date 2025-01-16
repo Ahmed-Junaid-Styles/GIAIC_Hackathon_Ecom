@@ -72,16 +72,19 @@ const Header = () => {
                     <div className='flex lap:h-24 vsm:w-full lap:w-9/12 vsm:mx-0 lap:mx-auto lap:items-center lap:flex-row vsm:flex-col vsm:pt-2 vsm:pb-4 vsm:items-center'>
                         <div className='text-3xl font-semibold w-[12%] sm:text-center'>Hekto</div>
                         <div className='flex lg:w-[35%] lap:w-[50%] justify-between vsm:justify-around vsm:w-[90%] sm:w-[80%] sm:justify-between vsm:my-2 sm:my-1'>
-                            <span>
-                                <select name="" id="" className='text-pink-500'>
+                            <span className='text-pink-500'>
+                                {/* <select name="" id="" className='text-pink-500'>
                                     <option value="">Home</option>
-                                </select>
+                                </select> */}
+                                <Link href={'/'}>
+                                    Home
+                                </Link>
                             </span>
                             <span>Pages</span>
                             <span>Product</span>
                             <span>Blog</span>
                             <span>Shop</span>
-                            <span>Contact</span>
+                            <span><Link href={'/contact'}>Contact</Link></span>
                         </div>
                         <div className='flex lap:flex-grow-[1] lap:justify-end items-center sm:justify-center'>
                             <input type="text" className='h-10 border-4 lg:w-[30%]' />

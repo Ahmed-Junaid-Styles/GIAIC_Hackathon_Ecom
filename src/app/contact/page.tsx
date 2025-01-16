@@ -6,10 +6,10 @@ const Contact = () => {
         <div>
             <After_header text='Contact Us' text2='Contact Us' />
             <div className='w-9/12 my-24 mx-auto'>
-                <div className='flex mb-12'>
-                    <div className='flex flex-col w-[50%] justify-between'>
+                <div className='flex sm:mb-12 vsm:mb-0 vsm:flex-col sm:flex-row'>
+                    <div className='flex flex-col sm:w-[50%] vsm:w-[100%] justify-between vsm:mb-8'>
                         <div className='text-3xl font-bold text-blue-800 '>Information About us</div>
-                        <div className='lg:text-sm w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.</div>
+                        <div className='lg:text-sm sm:w-[90%] vsm:w-[100%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.</div>
                         <div>
                             <svg className='w-20' width="103" height="25" viewBox="0 0 103 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="12.5" cy="12.5" r="12.5" fill="#5625DF" />
@@ -18,9 +18,9 @@ const Contact = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='w-[50%]'>
+                    <div className='sm:w-[50%] vsm:mb-8 sm:pl-8'>
                         <div className='text-3xl font-bold text-blue-800 mb-3'>Contact Way</div>
-                        <div className='grid grid-cols-2 text-sm gap-4'>
+                        <div className='grid lap:grid-cols-2 sm:grid-cols-1 text-sm gap-4'>
                             <div className='flex items-center'>
                                 <div className='mr-3'>
                                     <svg width="25" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,23 +69,23 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <div className='flex justify- mt-24'>
-                    <div className='w-[40%] flex flex-col justify-between'>
+                <div className='flex justify- mt-24 vsm:mt-0 vsm:flex-col sm:flex-row'>
+                    <div className='w-[40%] flex flex-col justify-between vsm:w-[100%] vsm:mb-8'>
                         <div className='text-3xl text-blue-800 font-bold'>Get in Touch</div>
-                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices  tristique amet erat vitae eget dolor los vitae lobortis quis bibendum quam.</div>
-                        <div className='flex justify-between'>
-                            <input type="text" placeholder='Your Name*' className='w-[44%] border-2 px-3 py-2'/>
-                            <input type="text" placeholder='Your E-mail' className='w-[44%] border-2 px-3 py-2'/>
+                        <div className='vsm:my-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices  tristique amet erat vitae eget dolor los vitae lobortis quis bibendum quam.</div>
+                        <div className='flex justify-between vsm:flex-col lap:flex-row'>
+                            <input type="text" placeholder='Your Name*' className='lap:w-[44%] vsm:w-[95%] border-2 px-3 py-2 vsm:my-1'/>
+                            <input type="text" placeholder='Your E-mail' className='lap:w-[44%] vsm:w-[95%] border-2 px-3 py-2 vsm:my-1'/>
                         </div>
                         <div className='flex'>
-                            <input type="text" placeholder='Subject*' className='w-full border-2 px-3 py-2'/>
+                            <input type="text" placeholder='Subject*' className='lap:w-full vsm:w-[95%] border-2 px-3 py-2 vsm:my-1'/>
                         </div>
                         <div className='flex'>
-                            <textarea name="" id="" placeholder='Type your message*' className='w-full border-2 px-3 py-2'></textarea>
+                            <textarea name="" id="" placeholder='Type your message*' className='lap:w-full vsm:w-[95%] border-2 px-3 py-2 vsm:my-1'></textarea>
                         </div>
-                        <div><button className='text-white bg-pink-500 py-2 w-3/12 rounded-md'>Send Mail</button></div>
+                        <div><button className='text-white bg-pink-500 py-2 lap:w-3/12 vsm:w-[50%] rounded-md vsm:my-2'>Send Mail</button></div>
                     </div>
-                    <div className='w-[60%] flex justify-center'>
+                    <div className='w-[60%] flex justify-center vsm:mb-8'>
                         <svg className='w-[50%] h-auto' width="723" height="692" viewBox="0 0 723 692" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M620.944 463.961C596.909 500.42 555.7 521.85 512.032 521.85H149.591C76.741 521.85 35.89 436.674 83.136 388.712C130.381 340.749 88.6504 299.785 161.524 261.325C232.124 224.063 256.228 303.488 321.266 251.518C386.306 199.55 480.995 204.452 501.799 257.402C522.602 310.352 517.701 328.986 561.825 340.752C605.95 352.516 649.094 419.194 622.619 461.358C622.068 462.236 621.509 463.104 620.944 463.961Z" fill="#CBD5FC" />
                             <path d="M604.831 478.742C566.649 481.98 540.91 553.55 445.461 510.532C445.461 510.532 455.942 479.289 502.893 459.813C549.842 440.338 604.831 478.742 604.831 478.742Z" fill="#C8DDF5" />
