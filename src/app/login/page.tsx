@@ -7,7 +7,7 @@ const Login = () => {
       <After_header text='My Account' text2='My Account' />
       <div>
         <div className=''>
-          <div className='w-[22%] shadow-2xl my-24 py-6 mx-auto flex flex-col justify-around lg:h-[320px] px-10'>
+          <div className='lg:w-[22%] vsm:w-[75%] sm:w-[60%] lap:w-[32%] shadow-2xl my-24 py-6 mx-auto flex flex-col justify-around lg:h-[320px] px-10'>
             <div>
               <div className='text-center font-bold mb-1 text-3xl'>Login</div>
               <div className='text-center text-sm text-gray-400'>Please login using account detail bellow.</div>
@@ -19,7 +19,7 @@ const Login = () => {
 
             </div>
             <div className='text-sm text-gray-400 cursor-pointer'>Forgot your password?</div>
-            <div className=''><button className='w-full bg-pink-500 text-white py-2'>Sign In</button></div>
+            <div className='my-2'><button className='w-full bg-pink-500 text-white py-2'>Sign In</button></div>
             <div className='text-center text-sm text-gray-400 cursor-pointer'>Don’t have an Account?Create account</div>
           </div>
         </div>
