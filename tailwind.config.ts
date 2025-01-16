@@ -22,7 +22,7 @@ const config: Config = {
       
       'md': '768px',
       
-
+      'lap': '920px',
       //'lg': '1024px',
       
       'lg': '1280px',

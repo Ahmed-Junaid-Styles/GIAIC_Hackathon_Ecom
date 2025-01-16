@@ -12,9 +12,9 @@ const GridDefault = () => {
                     <div>
                         
                         <div>
-                            <div className='flex justify-between w-9/12 mx-auto mb-12'>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                            <div className='flex justify-between lg:flex-row vsm:flex-col w-9/12 mx-auto mb-12'>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="201" height="201" viewBox="0 0 201 201" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="201" height="201" fill="url(#pattern0_5722_1066)" />
                                             <defs>
@@ -26,7 +26,7 @@ const GridDefault = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Vel elit euismod</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +48,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="169" height="169" viewBox="0 0 169 169" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="169" height="169" fill="url(#pattern0_5722_1037)" />
                                             <defs>
@@ -61,7 +61,7 @@ const GridDefault = () => {
                                         </svg>
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Ultricies condimentum imperdiet</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,8 +83,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="201" height="201" viewBox="0 0 201 201" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="201" height="201" fill="url(#pattern0_5722_984)" />
                                             <defs>
@@ -97,7 +97,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Vitae suspendisse sed</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,8 +119,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="188" height="188" viewBox="0 0 188 188" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="188" height="188" fill="url(#pattern0_5722_869)" />
                                             <defs>
@@ -156,9 +156,9 @@ const GridDefault = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex justify-between w-9/12 mx-auto mb-12'>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                            <div className='flex justify-between lg:flex-row vsm:flex-col w-9/12 mx-auto'>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="128" height="139" viewBox="0 0 128 139" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="128" height="139" fill="url(#pattern0_5722_586)" />
                                             <defs>
@@ -171,7 +171,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Fusce pellentesque at</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -193,8 +193,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="154" height="158" viewBox="0 0 154 158" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="154" height="158" fill="url(#pattern0_5722_1835)" />
                                             <defs>
@@ -207,7 +207,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Vestibulum magna laoreet</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -229,8 +229,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="114" height="144" viewBox="0 0 114 144" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="114" height="144" fill="url(#pattern0_5722_1939)" />
                                             <defs>
@@ -244,7 +244,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Sollicitudin amet orci</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -266,8 +266,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="167" height="167" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="167" height="167" fill="url(#pattern0_5722_1198)" />
                                             <defs>
@@ -281,7 +281,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Ultrices mauris sit</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,9 +304,9 @@ const GridDefault = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex justify-between w-9/12 mx-auto mb-12'>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                            <div className='flex justify-between lg:flex-row vsm:flex-col w-9/12 mx-auto mb-12'>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="170" height="151" viewBox="0 0 170 151" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="170" height="151" fill="url(#pattern0_5722_839)" />
                                             <defs>
@@ -319,7 +319,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Pellentesque condimentum ac</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -341,8 +341,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center w-lg:[16vw] '>
                                         <svg width="169" height="158" viewBox="0 0 169 158" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="169" height="158" fill="url(#pattern0_5722_681)" />
                                             <defs>
@@ -355,7 +355,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Cras scelerisque velit</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -377,8 +377,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <g style={{ mixBlendMode: "darken" }}>
                                                 <rect width="176" height="176" fill="url(#pattern0_5722_164)" />
@@ -394,7 +394,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Lectus vulputate faucibus</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -416,8 +416,8 @@ const GridDefault = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className='bg-gray-300 h-[12vw] flex justify-center items-center w-[16vw] '>
+                                <div className='lg:my-0 vsm:my-3'>
+                                    <div className='bg-gray-300 lg:h-[12vw] flex justify-center items-center lg:w-[16vw] '>
                                         <svg width="188" height="188" viewBox="0 0 188 188" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                             <rect width="188" height="188" fill="url(#pattern0_5722_1754)" />
                                             <defs>
@@ -431,7 +431,7 @@ const GridDefault = () => {
 
 
                                     </div>
-                                    <div className='flex flex-col items-center justify-around h-[5vw]'>
+                                    <div className='flex flex-col items-center justify-around lg:h-[5vw]'>
                                         <div className='text-xl text-blue-800 font-semibold'>Purus risus, ut</div>
                                         <div className='flex'>
                                             <div className='mx-1'><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">

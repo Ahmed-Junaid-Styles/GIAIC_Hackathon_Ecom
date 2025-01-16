@@ -8,10 +8,10 @@ const Second = () => {
                 <div>
                     <div className='flex flex-col items-center'>
                         <div className='text-3xl font-semibold mb-8'>Featured Products</div>
-                        <div className='lg:flex'>
-                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
-                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] vsm:w-[70vw]'>
-                                    <svg className='w-full vsm:w-[80%]' width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                        <div className='lap:flex lap:flex-wrap lap:justify-between'>
+                            <div className='flex flex-col shadow-2xl lap:mx-0 mx-5 vsm:mb-8 border-2 border-transparent hover:border-blue-700 hover:bg-blue-800 hover:text-white group' >
+                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] vsm:w-[70vw] lap:h-[18vw] lap:w-[34vw]'>
+                                <svg className='w-full vsm:w-[80%]' width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="178" height="178" fill="url(#pattern0_5703_803)" />
                                         <defs>
                                             <pattern id="pattern0_5703_803" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -23,19 +23,19 @@ const Second = () => {
 
                                 </div>
                                 <div className='flex flex-col items-center py-4'>
-                                    <div className='text-pink-500 text-lg'>Cantilever chair</div>
+                                    <div className='text-pink-500 text-lg group-hover:text-white'>Cantilever chair</div>
                                     <div className='my-1'><svg width="52" height="4" viewBox="0 0 52 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="14" height="4" rx="2" fill="#05E6B7" />
                                         <rect x="19" width="14" height="4" rx="2" fill="#F701A8" />
                                         <rect x="38" width="14" height="4" rx="2" fill="#00009D" />
                                     </svg>
                                     </div>
-                                    <div className='text-blue-800'>code - Y523201</div>
-                                    <div className='text-blue-800'>$42.00</div>
+                                    <div className='text-blue-800  group-hover:text-white'>code - Y523201</div>
+                                    <div className='text-blue-800  group-hover:text-white'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
-                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
+                            <div className='flex flex-col shadow-2xl lap:mx-0 mx-5 vsm:mb-8 border-2 border-transparent hover:border-blue-700 hover:bg-blue-800 hover:text-white group'>
+                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw] lap:h-[18vw] lap:w-[34vw]'>
                                     <svg className='w-full' width="130" height="150" viewBox="0 0 130 150" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="130" height="150" fill="url(#pattern0_5703_1632)" />
                                         <defs>
@@ -51,19 +51,19 @@ const Second = () => {
 
                                 </div>
                                 <div className='flex flex-col items-center py-4'>
-                                    <div className='text-pink-500 text-lg'>Cantilever chair</div>
+                                    <div className='text-pink-500 text-lg group-hover:text-white'>Cantilever chair</div>
                                     <div className='my-1'><svg width="52" height="4" viewBox="0 0 52 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="14" height="4" rx="2" fill="#05E6B7" />
                                         <rect x="19" width="14" height="4" rx="2" fill="#F701A8" />
                                         <rect x="38" width="14" height="4" rx="2" fill="#00009D" />
                                     </svg>
                                     </div>
-                                    <div className='text-blue-800'>code - Y523201</div>
-                                    <div className='text-blue-800'>$42.00</div>
+                                    <div className='text-blue-800 group-hover:text-white'>code - Y523201</div>
+                                    <div className='text-blue-800 group-hover:text-white'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
-                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
+                            <div className='flex flex-col shadow-2xl lap:mx-0 mx-5 vsm:mb-8 border-2 border-transparent hover:border-blue-700 hover:bg-blue-800 hover:text-white group'>
+                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw] lap:h-[18vw] lap:w-[34vw]'>
                                     <svg className='w-full' width="175" height="175" viewBox="0 0 175 175" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="175" height="175" fill="url(#pattern0_5703_1128)" />
                                         <defs>
@@ -76,19 +76,19 @@ const Second = () => {
 
                                 </div>
                                 <div className='flex flex-col items-center py-4'>
-                                    <div className='text-pink-500 text-lg'>Cantilever chair</div>
+                                    <div className='text-pink-500 text-lg group-hover:text-white'>Cantilever chair</div>
                                     <div className='my-1'><svg width="52" height="4" viewBox="0 0 52 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="14" height="4" rx="2" fill="#05E6B7" />
                                         <rect x="19" width="14" height="4" rx="2" fill="#F701A8" />
                                         <rect x="38" width="14" height="4" rx="2" fill="#00009D" />
                                     </svg>
                                     </div>
-                                    <div className='text-blue-800'>code - Y523201</div>
-                                    <div className='text-blue-800'>$42.00</div>
+                                    <div className='text-blue-800 group-hover:text-white'>code - Y523201</div>
+                                    <div className='text-blue-800 group-hover:text-white'>$42.00</div>
                                 </div>
                             </div>
-                            <div className='flex flex-col shadow-2xl mx-5 vsm:mb-8'>
-                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw]'>
+                            <div className='flex flex-col shadow-2xl lap:mx-0 mx-5 vsm:mb-8 border-2 border-transparent hover:border-blue-700 hover:bg-blue-800 hover:text-white group'>
+                                <div className='flex justify-center items-center bg-gray-300 px-12 py-5 lg:h-[10vw] lg:w-[14vw] sm:w-[70vw] lap:h-[18vw] lap:w-[34vw]'>
                                     <svg className='w-full' width="216" height="151" viewBox="0 0 216 151" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                         <rect width="216" height="151" fill="url(#pattern0_5703_1156)" />
                                         <defs>
@@ -102,15 +102,15 @@ const Second = () => {
 
                                 </div>
                                 <div className='flex flex-col items-center py-4'>
-                                    <div className='text-pink-500 text-lg'>Cantilever chair</div>
+                                    <div className='text-pink-500 text-lg group-hover:text-white'>Cantilever chair</div>
                                     <div className='my-1'><svg width="52" height="4" viewBox="0 0 52 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="14" height="4" rx="2" fill="#05E6B7" />
                                         <rect x="19" width="14" height="4" rx="2" fill="#F701A8" />
                                         <rect x="38" width="14" height="4" rx="2" fill="#00009D" />
                                     </svg>
                                     </div>
-                                    <div className='text-blue-800'>code - Y523201</div>
-                                    <div className='text-blue-800'>$42.00</div>
+                                    <div className='text-blue-800 group-hover:text-white'>code - Y523201</div>
+                                    <div className='text-blue-800 group-hover:text-white'>$42.00</div>
                                 </div>
                             </div>
 
@@ -127,18 +127,18 @@ const Second = () => {
                     </div>
                     <div className='flex flex-col items-center'>
                         <div className='text-4xl text-blue-800 font-bold'>Leatest Products</div>
-                        <div className='lg:w-6/12 flex lg:justify-evenly mt-5 mb-8 vsm:justify-between sm:w-[70vw] vsm:w-[90vw]'>
+                        <div className='lap:w-6/12 flex lg:justify-evenly mt-5 mb-8 vsm:justify-between sm:w-[70vw] vsm:w-[90vw]'>
                             <Link className='text-sm text-pink-500 border-b-2 border-pink-500 font-semibold' href={''}>Next Arrival</Link>
                             <Link className='text-sm font-semibold text-blue-800' href={''}>Best Seller</Link>
                             <Link className='text-sm font-semibold text-blue-800' href={''}>Featured</Link>
                             <Link className='text-sm font-semibold text-blue-800' href={''}>Special Offer</Link>
                         </div>
                         <div>
-                            <div className='grid lg:grid-cols-3 sm:grid-col-1 vsm:w-[70vw]'>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
-                                        <div>
-                                            <svg width="223" height="229" viewBox="0 0 223 229" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <div className='grid lg:grid-cols-3 lap:grid-cols-2 sm:grid-col-1 vsm:w-[70vw]'>
+                                <div className='lg:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lap:w-[100%] vsm:w-[70vw]'>
+                                        <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="223" height="229" viewBox="0 0 223 229" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="223" height="229" fill="url(#pattern0_5703_1878)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_1878" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -158,10 +158,10 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
+                                <div className='lg:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
                                     <div className='flex justify-center items-center '>
-                                        <div>
-                                            <svg width="245" height="225" viewBox="0 0 245 245" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                    <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="245" height="225" viewBox="0 0 245 245" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="245" height="245" fill="url(#pattern0_5703_718)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_718" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -182,10 +182,10 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
-                                        <div>
-                                            <svg width="222" height="224" viewBox="0 0 222 224" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <div className='lgs:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lap:w-[100%] vsm:w-[70vw]'>
+                                    <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="222" height="224" viewBox="0 0 222 224" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect x="0.0810547" y="0.983208" width="221.838" height="222.204" fill="url(#pattern0_5703_404)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_404" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -206,10 +206,10 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
-                                        <div>
-                                            <svg width="267" height="277" viewBox="0 0 267 277" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <div className='lg:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lap:w-[100%] vsm:w-[70vw]'>
+                                    <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="220" height="230" viewBox="0 0 267 277" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                 <rect width="267" height="277" fill="url(#pattern0_5703_1256)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_1256" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -230,11 +230,11 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
-                                        <div>
-                                            <svg width="303" height="278" viewBox="0 0 303 264" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <rect width="303" height="264" fill="url(#pattern0_5703_1909)" />
+                                <div className='lg:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lap:h-min lap:w-[100%] vsm:w-[70vw]'>
+                                    <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="303" height="234" viewBox="0 0 303 264" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                                <rect width="303" height="234" fill="url(#pattern0_5703_1909)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_1909" patternContentUnits="objectBoundingBox" width="1" height="1">
                                                         <use xlinkHref="#image0_5703_1909" transform="matrix(0.00194484 0 0 0.00223214 -0.0416372 0)" />
@@ -254,11 +254,11 @@ const Second = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='lg:w-[17vw] mx-8 vsm:mx-0 my-4'>
-                                    <div className='flex justify-center items-center bg-gray-200 lg:w-[100%] vsm:w-[70vw]'>
-                                        <div>
-                                            <svg width="360" height="261" viewBox="0 0 360 261" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                                                <rect width="360" height="261" fill="url(#pattern0_5703_474)" />
+                                <div className='lg:w-[17vw] lap:w-[30vw] lap:h-[24vw] mx-8 vsm:mx-0 my-4'>
+                                    <div className='flex justify-center items-center bg-gray-200 lap:h-auto lap:w-[100%] vsm:w-[70vw]'>
+                                    <div className='flex justify-center'>
+                                            <svg className='lap:w-[16vw] lap:aspect-square' width="360" height="234" viewBox="0 0 360 261" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                                <rect width="360" height="234" fill="url(#pattern0_5703_474)" />
                                                 <defs>
                                                     <pattern id="pattern0_5703_474" patternContentUnits="objectBoundingBox" width="1" height="1">
                                                         <use xlinkHref="#image0_5703_474" transform="matrix(0.00170648 0 0 0.00235377 0 -0.00135342)" />

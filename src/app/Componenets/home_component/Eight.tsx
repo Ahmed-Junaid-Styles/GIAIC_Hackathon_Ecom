@@ -7,7 +7,7 @@ const Eight = () => {
             <div className='flex flex-col items-center mb-20 vsm:w-full'>
                 <div className='text-blue-800 text-4xl font-bold lg:mb-16 lg:mt-12 vsm:mb-8 vsm:mt-4'> Leatest Blog</div>
                 <div className='flex lg:justify-around lg:w-9/12 vsm:flex-col lg:flex-row vsm:items-center'>
-                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl lg:my-2 my-4'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl lg:my-2 my-4 group'>
                         <div>
                             <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_440)" />
@@ -41,15 +41,15 @@ const Eight = () => {
                                     <div>21 August, 2020</div>
                                 </div>
                             </div>
-                            <div className='text-blue-800 font-semibold text-lg'>Top essential Trends in 2021</div>
+                            <div className='text-blue-800 font-semibold text-lg group-hover:text-pink-500'>Top essential Trends in 2021</div>
                             <div>More off this less hello samlande lied much
                                 over tightly circa horse taped mightly</div>
                             <div>
-                                <Link href={''} className='border-b-2 text-blue-800 hover:text-pink-500'>Show more</Link>
+                                <Link href={''} className='underline text-blue-800 group-hover:text-pink-500'>Show more</Link>
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4 group'>
                         <div>
                             <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_239)" />
@@ -84,15 +84,15 @@ const Eight = () => {
                                     <div>21 August, 2020</div>
                                 </div>
                             </div>
-                            <div className='text-blue-800 font-semibold text-lg'>Top essential Trends in 2021</div>
+                            <div className='text-blue-800 font-semibold text-lg group-hover:text-pink-500'>Top essential Trends in 2021</div>
                             <div>More off this less hello samlande lied much
                                 over tightly circa horse taped mightly</div>
                             <div>
-                                <Link href={''} className='border-b-2 text-blue-800 hover:text-pink-500'>Show more</Link>
+                                <Link href={''} className='underline text-blue-800 hover:text-pink-500 group-hover:text-pink-500'>Show more</Link>
                             </div>
                         </div>
                     </div>
-                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4'>
+                    <div className='lg:w-[28%] vsm:w-[80%] sm:w-[70%] px-8 shadow-2xl rounded-xl my-4 group'>
                         <div>
                             <svg className='lg:w-[100%] lg:h-auto vsm:w-[100%]' width="370" height="255" viewBox="0 0 370 255" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect width="370" height="255" fill="url(#pattern0_5718_934)" />
@@ -126,11 +126,11 @@ const Eight = () => {
                                     <div>21 August, 2020</div>
                                 </div>
                             </div>
-                            <div className='text-blue-800 font-semibold text-lg'>Top essential Trends in 2021</div>
+                            <div className='text-blue-800 font-semibold text-lg group-hover:text-pink-500'>Top essential Trends in 2021</div>
                             <div>More off this less hello samlande lied much
                                 over tightly circa horse taped mightly</div>
                             <div>
-                                <Link href={''} className='border-b-2 text-blue-800 hover:text-pink-500'>Show more</Link>
+                                <Link href={''} className='underline text-blue-800 hover:text-pink-500 group-hover:text-pink-500'>Show more</Link>
                             </div>
                         </div>
                     </div>
